@@ -1,0 +1,30 @@
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /root/dse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_96e38/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_96e38.dir/build.make CMakeFiles/cmTC_96e38.dir/build
+gmake[1]: Entering directory '/root/dse/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96e38.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_96e38.dir/src.c.o -c /root/dse/build/CMakeFiles/CMakeTmp/src.c
+cc1: error: '-Werror=unguarded-availability-new': no option '-Wunguarded-availability-new'
+gmake[1]: *** [CMakeFiles/cmTC_96e38.dir/build.make:85: CMakeFiles/cmTC_96e38.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/root/dse/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_96e38/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /root/dse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5a527/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a527.dir/build.make CMakeFiles/cmTC_5a527.dir/build
+gmake[1]: Entering directory '/root/dse/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a527.dir/src.cxx.o
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_5a527.dir/src.cxx.o -c /root/dse/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: '-Werror=unguarded-availability-new': no option '-Wunguarded-availability-new'
+gmake[1]: *** [CMakeFiles/cmTC_5a527.dir/build.make:85: CMakeFiles/cmTC_5a527.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/root/dse/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_5a527/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

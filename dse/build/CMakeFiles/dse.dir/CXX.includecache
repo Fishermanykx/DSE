@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Strategy.h
+z3++.h
+../include/z3++.h
+
+../include/SymbolicInterpreter.h
+cstdlib
+-
+map
+-
+stack
+-
+vector
+-
+z3++.h
+../include/z3++.h
+
+/root/dse/src/DSE.cpp
+sys/stat.h
+-
+unistd.h
+-
+fstream
+-
+iostream
+-
+Strategy.h
+/root/dse/src/Strategy.h
+SymbolicInterpreter.h
+/root/dse/src/SymbolicInterpreter.h
+z3++.h
+/root/dse/src/z3++.h
+
+/root/dse/src/Strategy.cpp
+Strategy.h
+/root/dse/src/Strategy.h
+vector
+-
+

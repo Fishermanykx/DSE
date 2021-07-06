@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Instrument.h
+llvm/IR/Constants.h
+../include/llvm/IR/Constants.h
+llvm/IR/Function.h
+../include/llvm/IR/Function.h
+llvm/IR/IRBuilder.h
+../include/llvm/IR/IRBuilder.h
+llvm/IR/InstIterator.h
+../include/llvm/IR/InstIterator.h
+llvm/IR/Module.h
+../include/llvm/IR/Module.h
+llvm/Pass.h
+../include/llvm/Pass.h
+
+/root/dse/src/Instrument.cpp
+Instrument.h
+/root/dse/src/Instrument.h
+

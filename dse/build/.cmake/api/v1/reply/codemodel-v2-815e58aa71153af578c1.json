@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "InstrumentPass::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InstrumentPass-543a642510804a569499.json",
+					"name" : "InstrumentPass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dse-b6233514b868fe2a3757.json",
+					"name" : "dse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "install-InstrumentPass::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-install-InstrumentPass-dd1fd70dd2aae58b54fc.json",
+					"name" : "install-InstrumentPass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "install-InstrumentPass-stripped::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-install-InstrumentPass-stripped-e021689000b9b9a84d8f.json",
+					"name" : "install-InstrumentPass-stripped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-38987ea142bff4d6ab60.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "runtime::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-runtime-32e1de23b55ad8daf6c6.json",
+					"name" : "runtime",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dse/build",
+		"source" : "/root/dse"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
